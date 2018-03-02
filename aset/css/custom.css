@@ -1,0 +1,31 @@
+.koran{
+  /*jumlah column*/
+	-webkit-column-count: 3; /* support Chrome, Safari, Opera */
+	-moz-column-count: 3; /* support Firefox */
+	column-count : 3;
+
+	/*lebar column*/
+	-webkit-column-width: 100px; /* support Chrome, Safari, Opera */
+	-moz-column-width: 100px; /* support Firefox */
+	column-width :100px;
+
+	/*jarak column dengan column yang lain*/
+	-webkit-column-gap : 20px;
+	-moz-column-gap : 20px;
+	column-gap : 20px;
+
+	/*ketebalan garis*/
+	-webkit-column-rule-width : 1px;
+	-moz-column-rule-width : 1px;
+	column-rule-width : 1px;
+
+	/*pengaturan garis dengan format nilai jenis_garis warna*/
+	-webkit-column-rule : 1px solid blue;
+	-moz-column-rule : 1px solid blue;
+	column-rule : 1px solid blue;
+
+	/*mengatur span column*/
+	-webkit-column-span :all;
+	-moz-column-span :all;
+	column-span :all;
+}
